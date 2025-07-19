@@ -1,0 +1,149 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+  height: 100%;
+}
+.img{
+  margin-top:50px;
+}
+.btn
+{
+  margin: 15px 0;
+  width: 50%;
+  height: 50px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  background: hsl(62, 100%, 76%);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px #7b7777ee,
+              -5px -5px 10px #ffffff73;
+}
+
+.bg_img{
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-image: url("https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg");
+  background-size: cover;
+}
+
+.content{
+  width: 340px;
+  border-radius: 10px;
+  padding: 40px 30px;
+  margin-bottom:100px;
+  box-shadow: -3px -3px 7px #99969673,2px 2px 5px rgba(227, 223, 223, 0.288);
+  margin-top: 100px;
+}
+
+.content .text{
+  font-size: 33px;
+  font-weight: 600;
+  margin-bottom: 35px;
+  color: #000;
+}
+
+.content .field{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  position:relative;
+}
+
+.field input{
+  height: 100%;
+  width: 100%;
+  padding-left: 45px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  color: #595959;
+  background: #dde1e7;
+  border-radius: 25px;
+  box-shadow: inset 2px 2px 5px #b6a9a9,
+              inset -5px -5px 10px #ffffff73;
+}
+
+.field:nth-child(2){
+  margin-top: 20px;
+}
+
+.field span{
+  width: 50px;
+  line-height: 50px;
+  color: #595959;
+}
+
+.field label{
+  position:absolute;
+  top: 50%;
+  left: 45px;
+  color: #666666;
+  transform: translateY(-50%);
+}
+
+
+.field input:focus ~ label{
+  opacity: 0;
+}
+
+.forgot-pass{
+  text-align: left;
+  margin: 10px;
+}
+
+.forgot-pass a{
+  font-size: 16px;
+  color: #0c1e86;
+  text-decoration: none;
+}
+
+.forgot-pass:hover a{
+  text-decoration: underline;
+}
+
+.but_1{
+  margin: 15px 0;
+  width: 100%;
+  height: 50px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  background: hsl(62, 100%, 76%);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px #7b7777ee,
+              -5px -5px 10px #ffffff73;
+}
+
+.but_1:focus{
+  color: #3498db;
+  box-shadow: inset 2px 2px 5px #babecc,
+              inset -5px -5px 10px #ffffff73;
+}
+
+.signup{
+  font-size: 16px;
+  color: #595959;
+  margin: 10px 0;
+}
+
+.signup a{
+  color: #000;
+  text-decoration: none;
+}
+
+.signup a:hover{
+  text-decoration: underline;
+}
